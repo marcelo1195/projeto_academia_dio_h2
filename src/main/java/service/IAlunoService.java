@@ -4,6 +4,7 @@ import entity.Aluno;
 import entity.AvaliacaoFisica;
 import entity.form.AlunoForm;
 import entity.form.AlunoUpdateForm;
+import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ public interface IAlunoService {
      * @param form formulário referente aos dados para criação de um Aluno no banco de dados.
      * @return Aluno recém-criado.
      */
+
     Aluno create(AlunoForm form);
 
     /**
