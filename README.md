@@ -1,0 +1,1 @@
+**"Refatoração do projeto para utilizar Spring Boot 3. Implementação do Javadoc para documentação de classes e métodos. Adição do atributo 'IMC', que agora é calculado automaticamente durante a avaliação.**
