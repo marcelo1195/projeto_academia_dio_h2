@@ -18,7 +18,6 @@ public class AlunoForm {
     private String nome;
 
     @NotEmpty(message = "Preencha o campo corretamente.")
-    //@CPF(message = "'${validatedValue}' é inválido!")
     private String cpf;
 
     @NotEmpty(message = "Preencha o campo corretamente.")
@@ -28,4 +27,6 @@ public class AlunoForm {
     @NotNull(message = "Prencha o campo corretamente.")
     @Past(message = "Data '${validatedValue}' é inválida.")
     private LocalDate dataDeNascimento;
+
+
 }
